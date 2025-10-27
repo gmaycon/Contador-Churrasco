@@ -44,12 +44,12 @@
   <div class="contador" id="contador"></div>
   <div class="sub" id="texto"></div>
 
-  <h2>Último patrocinio</h2>
+  <h2>Último patrocínio</h2>
   <ul>
     <li>Adryan - </li>
     <li>Jackson - 02/10/2025</li>
     <li>Maycon - 23/10/2025</li>
-    <li>Wesney - 06/10/2025 </li>
+    <li>Wesney - 06/10/2025</li>
   </ul>
 
   <script>
@@ -66,7 +66,7 @@
       const diffDias = Math.floor(diffTempo / (1000 * 60 * 60 * 24));
       document.getElementById("contador").textContent = diffDias;
       document.getElementById("texto").textContent = 
-        diffDias === 1 ? "dias sem reunião" : "dias sem reunião";
+        diffDias === 1 ? "dia sem reunião" : "dias sem reunião";
     }
 
     atualizarContador();
@@ -74,9 +74,3 @@
   </script>
 </body>
 </html>
-
-
-
-
-
-
